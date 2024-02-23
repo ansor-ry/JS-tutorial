@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-kun</title>
+</head>
+<body>
+    <h1> 
+        Dasturlash muhitida(VsCode,...)yozgan Javascript kodimiz natijasini browserda ko'rish uchun .js file larimizni 
+        asosiy index.html ga ulash kerak va buni 3 xil usuli bor
+        1: -> Inline JS
+        2: -> Innternal JS
+        3: -> External JS
+    </h1>
+    <button onclick="console.log('Salom dunyo 1')"> Click me please !!! </button> <!-- 1 - usul "Inline" -->
+
+    <script src="script.js"> // 3 - usul "Innternal";
+        console.log("Salom dunyo 2"); // 2 - usul "External";
+    </script>
+
+    <!-- Qo'shimcha -->
+    <!-- 
+        Agar siz JavaScript'ni veb-saytning bir nechta sahifalarida ishlatmoqchi bo'lsangiz, bir xil skriptni qayta-qayta yozish o'rniga tashqi JavaScript faylini yaratishingiz kerak. "src" Skript faylini .js kengaytmasi bilan saqlang va tegdagi atribut yordamida unga murojaat qiling. <script src="URL"> 
+     -->
+</body>
+</html>
